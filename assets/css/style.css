@@ -123,6 +123,28 @@
 .card-text p {
     padding: 5px 0px;
 }
-
+/* footer */
+.my-footer {
+    border-top: solid 0.5px black;
+    background-color: #fafafa;
+}
+.footer-right {
+    color: rgba(189, 157, 155);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer-left {
+    color: rgba(189, 157, 155);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+.copywrite {
+    background-color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-size: x-small;
+    text-align: center;
+}
 
 
