@@ -41,7 +41,7 @@
 .openmenu {
     font-size: 30px;
 }
-/* Hero image main page */
+/* Hero image homepage */
 .hero-image {
   width:100%;
   height:500px;
@@ -57,42 +57,24 @@
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
+}
+.hero-image-text h1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 75px;
-  font-weight: bold;
   color: white;
   border-top: 1.5px solid #fafafa;
   border-bottom: 1.5px solid #fafafa;
 }
-/* my journer/philosophy section */
-.about-me-section {
-    padding: 10px 0px;
-}
-.journey-image {
-    background: url('/assets/images/philosophy.jpg') center /cover no-repeat;
-    height: 400px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.hero-image-text {
-  text-align: center;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.hero-image-text h3 {
   font-family: 'Roboto', sans-serif;
-  font-size: 75px;
-  font-weight: bold;
   color: white;
-  border-top: 1.5px solid #fafafa;
-  border-bottom: 1.5px solid #fafafa;
 }
 /* my journer/philosophy section */
 .about-me-section {
     padding: 20px 0px;
 }
 .journey-image {
-    background: url('/assets/images/journey.jpg') center /cover no-repeat;
+    background: url('/assets/images/philosophy.jpg') center /cover no-repeat;
     height: 400px;
     margin-left: 20px;
     margin-right: 20px;
@@ -146,5 +128,60 @@
     font-size: x-small;
     text-align: center;
 }
+/* Therapies page hero image*/
+.therapies-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/homepage-main.jpg');
+  width:100%;
+  height:500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+.therapies-image-text {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.therapies-image-text h1 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  border-top: 1.5px solid #fafafa;
+  border-bottom: 1.5px solid #fafafa;
+}
+.therapies-image-text p {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
 
 
+
+/* contact page hero image*/
+.contact-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/homepage-main.jpg');
+  width:100%;
+  height:500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+.contact-image-text {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.contact-image-text h1 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  border-top: 1.5px solid #fafafa;
+  border-bottom: 1.5px solid #fafafa;
+}
+.contact-image-text p {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
