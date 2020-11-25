@@ -92,18 +92,18 @@
     font-family: 'Roboto', sans-serif;
     border-style: groove;
     margin-top: -160px;
-    padding: 0px 45px;
+    padding: 10px 45px;
     margin: -160px 45px 0px;
 }
 .card-text h5 {
-    padding-top: 30px;
+    padding: 20px 0px;
 }
 .card-text h3 {
     padding: 50px 0px;
     border-bottom: 0.5px solid black;
 }
 .card-text p {
-    padding: 5px 0px;
+    padding: 10px 0px;
 }
 .card-text p img {
     float: right;
@@ -157,6 +157,10 @@
   color: white;
   border-top: 1.5px solid #fafafa;
   border-bottom: 1.5px solid #fafafa;
+}
+.therapies-image-text h3 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
 }
 .therapies-image-text p {
   font-family: 'Roboto', sans-serif;
