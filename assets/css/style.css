@@ -100,7 +100,7 @@
 }
 .card-text h3 {
     padding: 50px 0px;
-    border-bottom: 0.5px solid black;
+    border-bottom: 0.5px solid rgb(180, 178, 178);
 }
 .card-text p {
     padding: 10px 0px;
@@ -114,7 +114,7 @@
 }
 /* footer */
 .my-footer {
-    border-top: solid 0.5px black;
+    border-top: solid 0.5px rgb(180, 178, 178);
     background-color: #fafafa;
 }
 .footer-right {
@@ -181,35 +181,44 @@
     height: 400px;
     margin-left: 20px;
     margin-right: 20px;
-    border: solid 0.5px #000;
+    border: solid 0.5px rgb(180, 178, 178);
 }
 .eft-image {
     background: url('/assets/images/eft.jpg') center /cover no-repeat;
     height: 400px;
     margin-left: 20px;
     margin-right: 20px;
-    border: solid 0.5px #000;
+    border: solid 0.5px rgb(180, 178, 178);
 }
 .meditation-image {
-    background: url('/assets/images/nutrition.jpg') center /cover no-repeat;
+    background: url('/assets/images/meditation.jpg') center /cover no-repeat;
     height: 400px;
     margin-left: 20px;
     margin-right: 20px;
-    border: solid 0.5px #000;
+    border: solid 0.5px rgb(180, 178, 178);
 }
 .healing-image {
-    background: url('/assets/images/eft.jpg') center /cover no-repeat;
+    background: url('/assets/images/healing.jpg') center /cover no-repeat;
     height: 400px;
     margin-left: 20px;
     margin-right: 20px;
-    border: solid 0.5px #000;
+    border: solid 0.5px rgb(180, 178, 178);
 }
 .intro h3 {
     padding: 20px;
+    color: rgb(180, 178, 178);
+    background-color: #fafafa;
 }
 .intro h3 button {
     padding: 0px 20px;
     float: right;
+    color: rgb(189, 157, 155);
+    background-color: white;
+    border: 2px solid rgb(180, 178, 178);
+}
+.intro h3 button:hover {
+    color: white;
+    background-color: rgb(180, 178, 178);
 }
 
 
