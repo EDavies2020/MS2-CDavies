@@ -86,6 +86,7 @@
     margin-right: 20px;
 }
 .card-text {
+    color: rgb(167, 162, 162);
     position: relative;
     background-color: #fafafa;
     text-align: center;
@@ -96,13 +97,16 @@
     margin: -160px 45px 0px;
 }
 .card-text h5 {
+    color: rgb(167, 162, 162);
     padding: 20px 0px;
 }
 .card-text h3 {
+    color: rgb(190, 140, 136);
     padding: 50px 0px;
-    border-bottom: 0.5px solid rgb(180, 178, 178);
+    border-bottom: 0.5px solid rgb(167, 162, 162);
 }
 .card-text p {
+    color: rgb(167, 162, 162);
     padding: 10px 0px;
 }
 .card-text p img {
@@ -114,17 +118,17 @@
 }
 /* footer */
 .my-footer {
-    border-top: solid 0.5px rgb(180, 178, 178);
+    border-top: solid 0.5px rgb(167, 162, 162);
     background-color: #fafafa;
 }
 .footer-right {
-    color: rgba(189, 157, 155);
+    color: rgb(190, 140, 136);
     font-family: 'Roboto', sans-serif;
     text-align: center;
     padding-top: 20px;
 }
 .footer-left {
-    color: rgba(189, 157, 155);
+    color: rgb(190, 140, 136);
     font-family: 'Roboto', sans-serif;
     text-align: center;
     padding-top: 20px;
@@ -181,52 +185,62 @@
     height: 400px;
     margin-left: 20px;
     margin-right: 20px;
-    border: solid 0.5px rgb(180, 178, 178);
+    border: solid 0.5px rgb(167, 162, 162);
 }
 .eft-image {
     background: url('/assets/images/eft.jpg') center /cover no-repeat;
     height: 400px;
     margin-left: 20px;
     margin-right: 20px;
-    border: solid 0.5px rgb(180, 178, 178);
+    border: solid 0.5px rgb(167, 162, 162);
 }
 .meditation-image {
     background: url('/assets/images/meditation.jpg') center /cover no-repeat;
     height: 400px;
     margin-left: 20px;
     margin-right: 20px;
-    border: solid 0.5px rgb(180, 178, 178);
+    border: solid 0.5px rgb(167, 162, 162);
 }
 .healing-image {
     background: url('/assets/images/healing.jpg') center /cover no-repeat;
     height: 400px;
     margin-left: 20px;
     margin-right: 20px;
-    border: solid 0.5px rgb(180, 178, 178);
+    border: solid 0.5px rgb(167, 162, 162);
 }
 .intro h3 {
     padding: 20px;
-    color: rgb(180, 178, 178);
+    color: rgb(189, 157, 155);
     background-color: #fafafa;
 }
 .intro h3 button {
     padding: 0px 20px;
     float: right;
-    color: rgb(189, 157, 155);
+    color: rgb(167, 162, 162);
     background-color: white;
-    border: 2px solid rgb(180, 178, 178);
+    border: 2px solid rgb(167, 162, 162);
 }
 .intro h3 button:hover {
     color: white;
-    background-color: rgb(180, 178, 178);
+    background-color: rgb(167, 162, 162);
 }
-
-
-
-
-
-
-
+.modal-title {
+    color: rgb(189, 157, 155);
+    border-bottom: 0.5px solid rgb(167, 162, 162);
+}
+.modal-body {
+    text-align: center;
+    color: rgb(167, 162, 162);
+}
+.modal-footer button {
+    color: rgb(167, 162, 162);
+    background-color: white;
+    border: 2px solid rgb(167, 162, 162);
+}
+.modal-footer button:hover {
+    color: white;
+    background-color: rgb(167, 162, 162);
+}
 /* contact page hero image*/
 .contact-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/homepage-main.jpg');
