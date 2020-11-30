@@ -190,6 +190,20 @@
     margin-right: 20px;
     border: solid 0.5px #000;
 }
+.meditation-image {
+    background: url('/assets/images/nutrition.jpg') center /cover no-repeat;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: solid 0.5px #000;
+}
+.healing-image {
+    background: url('/assets/images/eft.jpg') center /cover no-repeat;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: solid 0.5px #000;
+}
 .intro h3 {
     padding: 20px;
 }
