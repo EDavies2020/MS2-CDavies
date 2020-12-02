@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:wght@300&family=Waiting+for+the+Sunrise&display=swap');
 /* curtain nav bar */
 .overlay {
   height: 0%;
@@ -115,6 +116,11 @@
     height: 250px;
     margin: 0px 10px;
     border-radius: 250px;
+}
+
+.carousel-item {
+    width: 100%;
+    height: auto;
 }
 /* footer */
 .my-footer {
