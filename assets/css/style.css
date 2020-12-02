@@ -117,10 +117,18 @@
     margin: 0px 10px;
     border-radius: 250px;
 }
-
-.carousel-item {
+/* testimonials */
+.testimonial-section {
+    background: url('/assets/images/clouds.jpg') center no-repeat;
+    border: groove solid .5px black; 
     width: 100%;
-    height: auto;
+    height: 500px;
+}
+.homepage-testimonials p {
+    background-color: #fafafa;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border: groove 1px black;
 }
 /* footer */
 .my-footer {
@@ -162,15 +170,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.therapies-image-text h1 {
+.therapies-image-text h3 {
   font-family: 'Roboto', sans-serif;
   color: white;
   border-top: 1.5px solid #fafafa;
   border-bottom: 1.5px solid #fafafa;
-}
-.therapies-image-text h3 {
-  font-family: 'Roboto', sans-serif;
-  color: white;
 }
 .therapies-image-text p {
   font-family: 'Roboto', sans-serif;
@@ -220,7 +224,7 @@
     background-color: #fafafa;
 }
 .intro h3 button {
-    padding: 0px 20px;
+    padding: 20px;
     float: right;
     color: rgb(167, 162, 162);
     background-color: white;
