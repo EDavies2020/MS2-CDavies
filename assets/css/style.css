@@ -119,16 +119,45 @@
 }
 /* testimonials */
 .testimonial-section {
-    background: url('/assets/images/clouds.jpg') center no-repeat;
-    border: groove solid .5px black; 
     width: 100%;
-    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 25px 0px;
+    padding: 40px 20px;
+}
+.homepage-testimonials {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    background: url(/assets/images/meadow.jpg);
+    opacity: .8;
+    border: groove 2px lightgray;
 }
 .homepage-testimonials p {
     background-color: #fafafa;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    border: groove 1px black;
+    padding: 50px 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: groove;
+}
+.homepage-testimonials h5 {
+    background-color: #fafafa;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 50px 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: groove;
+}
+.homepage-testimonials h4 {
+    color: white;
+    float: right;
+    padding-right: 10px;
+    padding-top: 5px;
 }
 /* footer */
 .my-footer {
