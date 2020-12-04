@@ -331,75 +331,74 @@
   font-family: 'Roboto', sans-serif;
   color: white;
 }
-/*springboard curtain nav bar */
-.springboard-overlay {
-  height: 0%;
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0; 
-  background-color: rgba(126, 113, 194, .8);
-  overflow-y: hidden;
-  transition: 0.5s;
-}
-.springboard-overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
-}
-.springboard-overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 30px;
-  color: white;
-  display: block;
-  transition: 0.3s;
-}
-.springboard-overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
-.springboard-overlay {
-  position: absolute;
-  top: 20px;
-  left: 10px;
-  font-size: 30px;
-}
-@media screen and (max-height: 450px) {
-  .springboard-overlay {overflow-y: auto;}
-  .springboard-overlay a {font-size: 20px}
-}
-.openmenu {
-    font-size: 30px;
-}
-/* Springboard hero image*/
-.springboard-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/assets/images/jumping.jpg');
-  width:100%;
-  height:600px;
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-attachment: fixed;
-  border-top: solid 10px #7E71C2;
-  border-bottom: solid 10px #7E71C2;
-}
-.springboard-image-text {
+/*springboard nav bar */
+.springboard-header {
     font-family: 'Comfortaa', cursive;
-    text-shadow: 2px 2px 5px white;
+    color: #6B55AC;
+    text-shadow: 2px 2px 5px #6B55AC;
     letter-spacing: 3px;
     position: absolute;
-    top: 60%;
-    right: 2%;
+    padding: 20px 20px;
 }
-.springboard-image-text h1 {
-  font-family: 'Comfortaa', cursive;
-  color: white;
+#springboard-nav {
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 2px;
 }
-.springboard-image-text h3 {
-  font-family: 'Comfortaa', cursive;
-  color: white;
+#springboard-nav ul li a {
+    color: #6B55AC;
+    padding: 20px 20px;
+}
+.nav-item active {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+.active, .nav-item:hover {
+    background-color: #E3E5E8;
+    color: white;
+}
+/* Springboard main image*/
+.springboard-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/assets/images/jumping.jpg');
+    width:100%;
+    height:600px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+/* springboard text */
+.springboard-text h4 {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+.springboard-text p {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+.michael-details h5 {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+.michael-details p {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+.christine-details h5 {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+.christine-details p {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+.weekend-workshops h5 {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+.weekend-workshops p {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
 }
 /* springboard footer */
 .springboard-footer {
