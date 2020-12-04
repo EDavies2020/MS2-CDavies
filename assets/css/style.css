@@ -117,7 +117,7 @@
     margin: 0px 10px;
     border-radius: 250px;
 }
-/* testimonials */
+/* homepage-testimonials */
 .testimonial-section {
     width: 100%;
     background-position: center;
@@ -131,11 +131,11 @@
     margin-left: auto;
     margin-right: auto;
     padding: 50px;
-    background: url(/assets/images/meadow.jpg);
+    background: url(/assets/images/wood.jpg);
     opacity: .8;
-    border: groove 2px lightgray;
+    border: solid 5px white;
 }
-.homepage-testimonials p {
+.homepage-testimonials h6 {
     background-color: #fafafa;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -145,15 +145,6 @@
     border: groove;
 }
 .homepage-testimonials h5 {
-    background-color: #fafafa;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    padding: 50px 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    border: groove;
-}
-.homepage-testimonials h4 {
     color: white;
     float: right;
     padding-right: 10px;
@@ -280,6 +271,39 @@
     color: white;
     background-color: rgb(167, 162, 162);
 }
+/* therapies-testimonials */
+.testimonial-section {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 25px 0px;
+    padding: 40px 20px;
+}
+.therapies-testimonials {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    background: url(/assets/images/meadow.jpg);
+    opacity: .8;
+    border: solid 5px white;
+}
+.therapies-testimonials h6 {
+    background-color: #fafafa;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 50px 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: groove;
+}
+.therapies-testimonials h5 {
+    color: white;
+    float: right;
+    padding-right: 10px;
+    padding-top: 5px;
+}
 /* contact page hero image*/
 .contact-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/homepage-main.jpg');
@@ -297,7 +321,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.contact-image-text h1 {
+.contact-image-text h3 {
   font-family: 'Roboto', sans-serif;
   color: white;
   border-top: 1.5px solid #fafafa;
