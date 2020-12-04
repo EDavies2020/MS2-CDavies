@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:wght@300&family=Waiting+for+the+Sunrise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Roboto:ital,wght@0,100;0,300;0,500;1,400&display=swap');
 /* curtain nav bar */
 .overlay {
   height: 0%;
@@ -45,7 +45,7 @@
 /* Hero image homepage */
 .hero-image {
   width:100%;
-  height:500px;
+  height:600px;
   background-image: url('/assets/images/homepage-main.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -70,7 +70,7 @@
   font-family: 'Roboto', sans-serif;
   color: white;
 }
-/* my journer/philosophy section */
+/* homepage - my journer/philosophy section */
 .about-me-section {
     padding: 40px 0px;
 }
@@ -177,7 +177,7 @@
 .therapies-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/homepage-main.jpg');
   width:100%;
-  height:500px;
+  height:600px;
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
@@ -308,7 +308,7 @@
 .contact-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/homepage-main.jpg');
   width:100%;
-  height:500px;
+  height:600px;
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
@@ -331,8 +331,76 @@
   font-family: 'Roboto', sans-serif;
   color: white;
 }
-
-
+/*springboard curtain nav bar */
+.springboard-overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0; 
+  background-color: rgba(126,113,194,.8);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+.springboard-overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.springboard-overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+.springboard-overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+.springboard-overlay {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  font-size: 30px;
+}
+@media screen and (max-height: 450px) {
+  .springboard-overlay {overflow-y: auto;}
+  .springboard-overlay a {font-size: 20px}
+}
+.openmenu {
+    font-size: 30px;
+}
+/* Springboard hero image*/
+.springboard-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/assets/images/jumping.jpg');
+  width:100%;
+  height:600px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  border-top: solid 15px #7E71C2;
+  border-bottom: solid 15px #7E71C2;
+}
+.springboard-image-text {
+    font-family: 'Comfortaa', cursive;
+    text-shadow: 2px 2px 5px white;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 60%;
+    right: 2%;
+}
+.springboard-image-text h1 {
+  font-family: 'Comfortaa', cursive;
+  color: white;
+}
+.springboard-image-text h3 {
+  font-family: 'Comfortaa', cursive;
+  color: white;
+}
 
 
 
