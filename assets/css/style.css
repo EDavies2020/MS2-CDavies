@@ -342,13 +342,7 @@
     background-color: #fafafa;
     padding: 10px 25px;
 }
-.nav-item active {
-    border: none;
-    outline: none;
-    background-color: #f1f1f1;
-    cursor: pointer;
-}
-.active, .nav-item:hover {
+#navbarNav ul li a:hover {
     background-color: #E3E5E8;
     color: white;
 }
@@ -385,27 +379,49 @@
 .springboard-text p {
     font-family: 'Comfortaa', cursive;
     text-align: center;
-    padding: 15px 30px;
+    padding: 5px 30px;
 }
-.michael-image {
-    background: url('/assets/images/healing.jpg');
-    border-radius: 50px;    
+.michael-details img {
+    width: 182px;
+    height: 243px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .michael-details h5 {
     font-family: 'Comfortaa', cursive;
     text-align: center;
+    color: #6B55AC;
+    text-shadow: 2px 2px 5px #6B55AC;
+    letter-spacing: 3px;
+    padding: 15px;
 }
 .michael-details p {
     font-family: 'Comfortaa', cursive;
     text-align: center;
+    padding: 0px 50px;
+}
+.christine-details img {
+    width: 182px;
+    height: 243px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .christine-details h5 {
     font-family: 'Comfortaa', cursive;
     text-align: center;
+    color: #6B55AC;
+    text-shadow: 2px 2px 5px #6B55AC;
+    letter-spacing: 3px;
+    padding: 15px;
 }
 .christine-details p {
     font-family: 'Comfortaa', cursive;
     text-align: center;
+    padding: 50px 50px;
 }
 .weekend-workshops h5 {
     font-family: 'Comfortaa', cursive;
@@ -414,6 +430,7 @@
 .weekend-workshops p {
     font-family: 'Comfortaa', cursive;
     text-align: center;
+    padding: 10px 40px;
 }
 /* springboard footer */
 .springboard-footer {
