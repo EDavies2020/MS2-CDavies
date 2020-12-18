@@ -332,26 +332,19 @@
   color: white;
 }
 /*springboard nav bar */
-.springboard-header {
+#navbarNav {
     font-family: 'Comfortaa', cursive;
-    color: #6B55AC;
-    text-shadow: 2px 2px 5px #6B55AC;
-    letter-spacing: 3px;
-    position: absolute;
-    padding: 20px 20px;
+    border: solid 1px grey;
+    padding: 50px;
 }
-#springboard-nav {
-    font-family: 'Comfortaa', cursive;
-    letter-spacing: 2px;
-}
-#springboard-nav ul li a {
+#navbarNav ul li a {
     color: #6B55AC;
-    padding: 20px 20px;
+    background-color: #fafafa;
+    padding: 10px 25px;
 }
 .nav-item active {
     border: none;
     outline: none;
-    padding: 10px 16px;
     background-color: #f1f1f1;
     cursor: pointer;
 }
@@ -359,22 +352,44 @@
     background-color: #E3E5E8;
     color: white;
 }
-/* Springboard main image*/
-.springboard-image {
+.springboard-header {
+    font-family: 'Comfortaa', cursive;
+    color: #6B55AC;
+    text-shadow: 2px 2px 5px #6B55AC;
+    letter-spacing: 3px;
+    position: absolute;
+    padding: 20px 80px;    
+}
+#springboard-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/assets/images/jumping.jpg');
     width:100%;
     height:600px;
     background-repeat: no-repeat;
     background-size:cover;
 }
+#springboard {
+    padding-top: 200px;
+}
+#about {
+    padding-top: 200px;
+}
+#weekends {
+    padding-top: 200px;
+}
 /* springboard text */
 .springboard-text h4 {
     font-family: 'Comfortaa', cursive;
     text-align: center;
+    padding: 15px 30px;
 }
 .springboard-text p {
     font-family: 'Comfortaa', cursive;
     text-align: center;
+    padding: 15px 30px;
+}
+.michael-image {
+    background: url('/assets/images/healing.jpg');
+    border-radius: 50px;    
 }
 .michael-details h5 {
     font-family: 'Comfortaa', cursive;
