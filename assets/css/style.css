@@ -75,7 +75,7 @@
     padding: 40px 0px;
 }
 .journey-image {
-    background: url('/assets/images/journey.jpg') center /cover no-repeat;
+    background: url('../images/journey.jpg') center /cover no-repeat;
     height: 400px;
     margin-left: 20px;
     margin-right: 20px;
