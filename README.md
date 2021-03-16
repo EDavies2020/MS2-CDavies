@@ -1,11 +1,11 @@
 # Christine Anne Davies Website
 
 
-[View the live webiste here](link when ready)
+[View the live webiste here](https://edavies2020.github.io/MS2-CDavies/)
 
-This website has been created to promote Christine Anne Davies and give full details of the therapies she offers. 
+This website has been created to promote Christine Anne Davies and gives full details of the therapies/services she offers. 
 
-documents supplied by Christine to be inserted here
+Christine and I discussed her requirements for the website and she provided a brief document of requirements: [view here](assets/images/readme/brainstorm1.png)
 
 ### Website Purpose
 

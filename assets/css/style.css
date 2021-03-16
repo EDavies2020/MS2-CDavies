@@ -75,7 +75,7 @@
     padding: 40px 0px;
 }
 .journey-image {
-    background: url('../images/journey.jpg');
+    background: url('../images/homepage/journey.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
@@ -85,7 +85,7 @@
     
 }
 .philosophy-image {
-    background: url('../images/philosophy.jpg');
+    background: url('../images/homepage/philosophy.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;height: 400px;
@@ -137,7 +137,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 50px;
-    background: url('../images/wood.jpg');
+    background: url('../images/homepage/wood.jpg');
     opacity: .8;
     border: solid 5px white;
 }
@@ -217,7 +217,7 @@
     padding: 10px;
 }
 .nutrition-image {
-    background: url('../images/nutrition.jpg');
+    background: url('../images/therapies/nutrition.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
@@ -227,7 +227,7 @@
     border: solid 0.5px rgb(167, 162, 162);
 }
 .eft-image {
-    background: url('../images/eft.jpg');
+    background: url('../images/therapies/eft.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
@@ -237,7 +237,7 @@
     border: solid 0.5px rgb(167, 162, 162);
 }
 .meditation-image {
-    background: url('../images/meditation.jpg');
+    background: url('../images/therapies/meditation.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
@@ -247,7 +247,7 @@
     border: solid 0.5px rgb(167, 162, 162);
 }
 .healing-image {
-    background: url('../images/healing.jpg');
+    background: url('../images/therapies/healing.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
@@ -303,7 +303,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 50px;
-    background: url('../images/meadow.jpg');
+    background: url('../images/therapies/meadow.jpg');
     opacity: .8;
     border: solid 5px white;
 }
@@ -349,131 +349,20 @@
   font-family: 'Roboto', sans-serif;
   color: white;
 }
-/*springboard nav bar */
-#navbarNav {
-    font-family: 'Comfortaa', cursive;
-    border: solid 1px grey;
-    padding: 50px;
-}
-#navbarNav ul li a {
-    color: #6B55AC;
+/* springboard-page */
+.springboard {
     background-color: #fafafa;
+}
+#sb-navbar{
+    font-family: 'Comfortaa', cursive;
+}
+#sb-navbar ul li a {
+    color: #6B55AC;
     padding: 10px 25px;
 }
-#navbarNav ul li a:hover {
+#sb-navbar ul li a:hover {
     background-color: #E3E5E8;
     color: white;
-}
-.springboard-header {
-    font-family: 'Comfortaa', cursive;
-    color: #6B55AC;
-    text-shadow: 2px 2px 5px #6B55AC;
-    letter-spacing: 3px;
-    position: absolute;
-    padding: 20px 80px;    
-}
-#springboard-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../images/jumping.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    width:100%;
-    height:600px;
-}
-#springboard {
-    padding-top: 200px;
-}
-#about {
-    padding-top: 200px;
-}
-#weekends {
-    padding-top: 200px;
-}
-/* springboard text */
-.springboard-text h4 {
-    font-family: 'Comfortaa', cursive;
-    text-align: center;
-    padding: 15px 30px;
-}
-.springboard-text p {
-    font-family: 'Comfortaa', cursive;
-    text-align: center;
-    padding: 5px 30px;
-}
-.michael-details img {
-    width: 182px;
-    height: 243px;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.michael-details h5 {
-    font-family: 'Comfortaa', cursive;
-    text-align: center;
-    color: #6B55AC;
-    text-shadow: 2px 2px 5px #6B55AC;
-    letter-spacing: 3px;
-    padding: 15px;
-}
-.michael-details p {
-    font-family: 'Comfortaa', cursive;
-    text-align: center;
-    padding: 0px 50px;
-}
-.christine-details img {
-    width: 182px;
-    height: 243px;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.christine-details h5 {
-    font-family: 'Comfortaa', cursive;
-    text-align: center;
-    color: #6B55AC;
-    text-shadow: 2px 2px 5px #6B55AC;
-    letter-spacing: 3px;
-    padding: 15px;
-}
-.christine-details p {
-    font-family: 'Comfortaa', cursive;
-    text-align: center;
-    padding: 50px 50px;
-}
-.weekend-workshops h5 {
-    font-family: 'Comfortaa', cursive;
-    text-align: center;
-}
-.weekend-workshops p {
-    font-family: 'Comfortaa', cursive;
-    text-align: center;
-    padding: 10px 40px;
-}
-/* springboard footer */
-.springboard-footer {
-    border-top: solid 0.5px rgb(167, 162, 162, .8);
-    background-color: #7E71C2;
-}
-.springboard-footer-right {
-    color: #fafafa;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    padding-top: 20px;
-}
-.springboard-footer-left {
-    color: #fafafa;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    padding-top: 20px;
-}
-.springboard-copywrite {
-    color: #fafafa;
-    background-color: #6B55AC;
-    font-family: 'Roboto', sans-serif;
-    font-size: x-small;
-    text-align: center;
 }
 
 
