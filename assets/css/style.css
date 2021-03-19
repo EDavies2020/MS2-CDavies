@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Roboto:ital,wght@0,100;0,300;0,500;1,400&display=swap');
+.container-fluid {
+    background-color: #fafafa;
+}
 /* curtain nav bar */
 .overlay {
     height: 0%;
@@ -7,7 +10,7 @@
     z-index: 1;
     top: 0;
     left: 0; 
-    background-color: rgba(207, 198, 197, 0.9);
+    background-color: rgba(202, 197, 197, 0.9);
     overflow-y: hidden;
     transition: 0.5s;
 }
@@ -80,7 +83,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
-    height: 400px;
+    height: 365px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -88,7 +91,8 @@
     background: url('../images/homepage/philosophy.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;height: 400px;
+    background-size:cover;
+    height: 365px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -145,6 +149,7 @@
     background-color: #fafafa;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    color: rgb(112, 112, 112);
     padding: 50px 20px;
     margin-right: 20px;
     margin-left: 20px;
@@ -158,23 +163,24 @@
 }
 /* footer */
 .my-footer {
-    border-top: solid 0.5px rgb(167, 162, 162);
-    background-color: #fafafa;
+    border-top: solid 2.5px rgb(190, 140, 136);
+}
+.my-footer a {
+    color: rgb(190, 140, 136);
 }
 .footer-right {
-    color: rgb(190, 140, 136);
+    color: rgb(112, 112, 112);
     font-family: 'Roboto', sans-serif;
     text-align: center;
     padding-top: 20px;
 }
 .footer-left {
-    color: rgb(190, 140, 136);
+    color: rgb(112, 112, 112);
     font-family: 'Roboto', sans-serif;
     text-align: center;
     padding-top: 20px;
 }
 .copywrite {
-    background-color: #fafafa;
     font-family: 'Roboto', sans-serif;
     font-size: x-small;
     text-align: center;
@@ -221,7 +227,7 @@
     text-align: center;
     color: white;
     background-color: rgba(30, 87, 30, 0.829);
-    padding: 10px;
+    padding: 10px 0px;
     margin: 0px 126px;
 }
 .image-text:hover {
