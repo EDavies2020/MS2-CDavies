@@ -101,7 +101,7 @@
     position: relative;
     background-color: #fafafa;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     border-style: groove;
     margin-top: -160px;
     padding: 10px 45px;
@@ -148,7 +148,7 @@
 .homepage-testimonials h6 {
     background-color: #fafafa;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     color: rgb(112, 112, 112);
     padding: 50px 20px;
     margin-right: 20px;
@@ -156,6 +156,7 @@
     border: groove;
 }
 .homepage-testimonials h5 {
+    font-family: 'Comfortaa', cursive;
     color: white;
     float: right;
     padding-right: 10px;
@@ -170,13 +171,13 @@
 }
 .footer-right {
     color: rgb(112, 112, 112);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     text-align: center;
     padding-top: 20px;
 }
 .footer-left {
     color: rgb(112, 112, 112);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     text-align: center;
     padding-top: 20px;
 }
@@ -272,7 +273,7 @@
 .therapies-testimonials h6 {
     background-color: #fafafa;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     padding: 50px 20px;
     margin-right: 20px;
     margin-left: 20px;
@@ -310,6 +311,46 @@
 .contact-image-text p {
     font-family: 'Roboto', sans-serif;
     color: white;
+}
+/* contact page where are we */
+.where-we-are {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+.where-we-are h3 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: rgb(190, 140, 136);
+    font-weight: bold;
+}
+.where-we-are p {
+    margin: 25px 60px;
+}
+/* contact page apointments */
+.appointments {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+.appointments h4 {
+    margin: 30px 0px;
+    color: rgb(190, 140, 136);
+    font-weight: bold;
+}
+.appointments p {
+    margin: 25px 60px;
+}
+/* contact page where are we */
+.enquiry-form {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+.enquiry-form h4 {
+    margin: 30px 0px;
+    color: rgb(190, 140, 136);
+    font-weight: bold;
+}
+.form-item {
+    margin: 45px 85px;
 }
 /* springboard-page */
 .springboard {
@@ -415,13 +456,13 @@
 }
 .springboard-footer-right {
     color: #fafafa;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     text-align: center;
     padding-top: 20px;
 }
 .springboard-footer-left {
     color: #fafafa;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     text-align: center;
     padding-top: 20px;
 }
@@ -432,4 +473,3 @@
     font-size: x-small;
     text-align: center;
 }
-

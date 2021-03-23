@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function(){
   var menu = document.getElementsByClassName("openmenu");
     if (menu !== undefined && menu.length == 1){
     menu[0].addEventListener('click', openNav);
-    /*$(".openmenu").click(openNav);*/
   }
 }); 
 function closeNav() {
@@ -15,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function(){
   var menu = document.getElementsByClassName("closemenu");
     if (menu !== undefined && menu.length == 1){
     menu[0].addEventListener('click', closeNav);
-    /*$(".openmenu").click(openNav);*/
   }
 });
 
