@@ -316,6 +316,7 @@
 .where-we-are {
     text-align: center;
     font-family: 'Comfortaa', cursive;
+    border-bottom: solid 1.5px rgb(190, 140, 136);
 }
 .where-we-are h3 {
     margin-top: 40px;
@@ -343,6 +344,7 @@
 .enquiry-form {
     text-align: center;
     font-family: 'Comfortaa', cursive;
+    background-color: #E3E5E8;
 }
 .enquiry-form h4 {
     margin: 30px 0px;
@@ -351,6 +353,12 @@
 }
 .form-item {
     margin: 45px 85px;
+}
+.form-item button {
+    background-color:#fafafa;
+    border: solid 1.5px #888888;
+    color:rgb(190, 140, 136);
+    font-weight: bold;
 }
 /* springboard-page */
 .springboard {
