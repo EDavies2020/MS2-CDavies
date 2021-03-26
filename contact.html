@@ -73,7 +73,8 @@
 <section>
     <div class="row no-gutters">
         <div class="col-12 enquiry-form">
-            <h4>Message me</h4>
+            <h4>Want to get in contact?</h4>
+            <h6>please complete the form below and Christine will get in contact</h6>
                 <form onsubmit="return sendMail(this);">
                     <div class="form-item">
                         <label for="name">Name</label>
@@ -88,17 +89,18 @@
                         <input type="number" class="form-control" name="contactnumber" id="contactNumber" placeholder="Enter contact number">
                     </div>
                     <div class="form-item">
-                        <label for="therapy">Which Therapy are you interested in?</label>
-                        <input id="therapy" class="form-control" name="therapy" placeholder="Therapy">
+                        <label for="therapy">Which Therapy/s are you interested in?</label>
+                        <textarea class="form-control" id="therapy" rows="2"></textarea>
                     </div>
-    
-            
-                <!--Form submit button-->
-                <div class="text-center">
-                    <button type="submit" class="btn btn-primary" id="submit">Request Table</button>
-                </div>
+                    <div>
+                    <div class="form-item">
+                        <label for="therapy-details">Please provide some details on why you are getting in touch and what you would like to achieve</label>
+                        <textarea class="form-control" id="therapy-details" rows="6"></textarea>
+                    </div>
+                    <div class="form-item">   
+                        <button type="submit" class="btn btn-primary" id="submit">Send Enquiry</button>
+                    </div>
             </form>
-                
         </div>
     </div>
 </section>
