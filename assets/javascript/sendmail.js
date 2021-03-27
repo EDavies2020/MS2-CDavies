@@ -1,18 +1,17 @@
 function sendMail(contactForm) {
-    emailjs.send("CADavies","website enquiry", {
-        "name": contactForm.name.value,
-        "email": contactForm.email.value,
-        "number": contactForm.number.value,
-        "therapy": contactForm.therapy.value,
-        "details": contactForm.details.value
-    })
-    .then(
-        function(response) {
-            console.log("SUCCESS", response);
-        },
-        function(error) {
-            console.log("FAILED", error);
-        }
-    );
-    return false;
+var templateParams = {
+    "name": contactForm.name.value,
+    "emailaddress": contactForm.emailaddress.value,
+    "contractnumber": contactForm.contactnumber.value,
+    "therapy": contactForm.therapy.value,
+    "therapydetails": contactForm.therapydetails.value,
+};
+    emailjs.send("CADavies","website enquiry", templateParams)
+        .then(function(response) {
+            console.log('SUCCESS!', response.status, response.text);
+        }, function(error) {
+            console.log('FAILED...', error);
+        });
 }
+ 
+

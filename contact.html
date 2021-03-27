@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <title>Christine Anne Davies</title>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript" 
+            src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script type="text/javascript">
         (function() {
-        emailjs.init("user_QDLr0fiKT6h4bxKO73Jrd");
+            emailjs.init("user_QDLr0fiKT6h4bxKO73Jrd");
         })();
-    </script>
+    </script>   
 </head>
 <body>
 <div class="container-fluid">
@@ -75,32 +76,31 @@
         <div class="col-12 enquiry-form">
             <h4>Want to get in contact?</h4>
             <h6>please complete the form below and Christine will get in contact</h6>
-                <form onsubmit="return sendMail(this);">
+                <form onsubmit="sendMail(this);">
                     <div class="form-item">
                         <label for="name">Name</label>
-                        <input type="text" class="form-control" name="name" id="name" placeholder="Enter name">
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" required/>
                     </div>
                     <div class="form-item">
-                        <label for="emailAddress">Email Address</label>
-                        <input type="email" class="form-control" name="emailaddress" id="emailAddress" placeholder="Enter email">
+                        <label for="emailaddress">Email Address</label>
+                        <input type="email" class="form-control" name="emailaddress" id="emailaddress" placeholder="Email" required/>
                     </div>
                     <div class="form-item">
-                        <label for="contactNumber">Contact Number</label>
-                        <input type="number" class="form-control" name="contactnumber" id="contactNumber" placeholder="Enter contact number">
+                        <label for="contactnumber">Contact Number</label>
+                        <input type="number" class="form-control" name="contactnumber" id="contactnumber" placeholder="Enter contact number" required/>
                     </div>
                     <div class="form-item">
                         <label for="therapy">Which Therapy/s are you interested in?</label>
-                        <textarea class="form-control" id="therapy" rows="2"></textarea>
+                        <textarea class="form-control" name="therapy" id="therapy" rows="2"></textarea>
                     </div>
-                    <div>
                     <div class="form-item">
-                        <label for="therapy-details">Please provide some details on why you are getting in touch and what you would like to achieve</label>
-                        <textarea class="form-control" id="therapy-details" rows="6"></textarea>
+                        <label for="therapydetails">Please provide some details on why you are getting in touch and what you would like to achieve</label>
+                        <textarea class="form-control" name="therapydetails" id="therapydetails" rows="6"></textarea>
                     </div>
                     <div class="form-item">   
                         <button type="submit" class="btn btn-primary" id="submit">Send Enquiry</button>
                     </div>
-            </form>
+                </form>
         </div>
     </div>
 </section>
@@ -121,9 +121,6 @@
     </div>
 </footer>
 </div>
-<script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-</script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -134,5 +131,6 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
 <script src="assets/javascript/sendmail.js" defer></script>
+<script src="assets/javascript/script.js"> defer</script>
 </body>
 </html>
