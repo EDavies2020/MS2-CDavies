@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -10,8 +10,7 @@
     <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png"><title>Christine Anne Davies</title>
-    <script type="text/javascript" 
-            src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script type="text/javascript">
         (function() {
             emailjs.init("user_QDLr0fiKT6h4bxKO73Jrd");
@@ -77,7 +76,7 @@
     <div class="row no-gutters">
         <div class="col-12 enquiry-form">
             <h4>Want to get in contact?</h4>
-            <h6>please complete the form below and Christine will get in contact</h6>
+            <h6>please complete the form below and I will get in contact</h6>
                 <form id="form" class="form" action="#" onsubmit="sendMail(this);">
                     <div class="form-item">
                         <label for="name">Name</label>
@@ -92,12 +91,19 @@
                         <input type="number" class="form-control" name="contactnumber" id="contactnumber" placeholder="Enter contact number" required/>
                     </div>
                     <div class="form-item">
-                        <label for="therapy">Which Therapy/s are you interested in?</label>
-                        <textarea class="form-control" name="therapy" id="therapy" rows="2"></textarea>
+                        <label for="therapy">Please select the Therapy are you interested in:</label>
+                        <select class="form-control" id="therapyoptions">
+                            <option>Natural Nutrition</option>
+                            <option>Emotional Freedom Technique</option>
+                            <option>Meditation & visualisation</option>
+                            <option>Healing</option>
+                            <option>I am interested in multiple therapies</option>
+                        </select>
+                        <textarea class="form-control" name="therapychoice" id="therapydetails" rows="2" placeholder="If your interested in multiple therapies, please list them here"></textarea>
                     </div>
                     <div class="form-item">
-                        <label for="therapydetails">Please provide some details on why you are getting in touch and what you would like to achieve</label>
-                        <textarea class="form-control" name="therapydetails" id="therapydetails" rows="6"></textarea>
+                        <label for="therapydetails">Details</label>
+                        <textarea class="form-control" name="therapydetails" id="therapydetails" rows="6" placeholder="Please provide some details on why you are getting in touch and what you would like to achieve" required/></textarea>
                     </div>
                     <div class="form-item">   
                         <button type="submit" class="btn btn-primary" id="submit">Send Enquiry</button>
@@ -107,7 +113,10 @@
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-body">
-                                <p class="text-center">Thank you for getting in touch, I will get back to you soon! Christine</p>
+                                <p>Thank you for your enquiry,</p>
+                                <p>I will be in contact soon</p>
+                                <p>Best wishes</p>
+                                <img src="/assets/images/contactpage/christine.jpg" alt="christine">
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -145,6 +154,6 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
 <script src="assets/javascript/sendmail.js" defer></script>
-<script src="assets/javascript/script.js"> defer</script>
+<script src="assets/javascript/script.js" defer></script>
 </body>
 </html>
