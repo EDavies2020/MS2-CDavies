@@ -328,7 +328,7 @@ font-family: 'Roboto', sans-serif; */
 .where-we-are {
     text-align: center;
     font-family: 'Comfortaa', cursive;
-    border-bottom: solid 1.5px rgb(190, 140, 136);
+    padding-bottom: 30px;
 }
 .where-we-are h3 {
     margin-top: 40px;
@@ -338,6 +338,13 @@ font-family: 'Roboto', sans-serif; */
 }
 .where-we-are p {
     margin: 25px 60px;
+    line-height: 35px;
+}
+#map {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    height: 400px;
 }
 /* contact page apointments */
 .appointments {
