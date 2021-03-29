@@ -14,4 +14,14 @@ var templateParams = {
         });
 }
  
-
+$('#form').on('submit', function (e) {
+    var showModal = true;
+    $(".form-control").each(function (element) {
+        if ($(this).val() == "") {
+            showModal = false;
+        }
+    });
+    if (showModal) {
+        $('#submitModal').modal('show');
+    }
+});

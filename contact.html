@@ -78,7 +78,7 @@
         <div class="col-12 enquiry-form">
             <h4>Want to get in contact?</h4>
             <h6>please complete the form below and Christine will get in contact</h6>
-                <form onsubmit="sendMail(this);">
+                <form id="form" class="form" action="#" onsubmit="sendMail(this);">
                     <div class="form-item">
                         <label for="name">Name</label>
                         <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" required/>
@@ -103,6 +103,18 @@
                         <button type="submit" class="btn btn-primary" id="submit">Send Enquiry</button>
                     </div>
                 </form>
+                <div class="modal fade success" tabindex="-1" role="dialog" id="submitModal">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <p class="text-center">Thank you for getting in touch, I will get back to you soon! Christine</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
 </section>
