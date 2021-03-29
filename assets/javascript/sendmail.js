@@ -10,10 +10,17 @@ var templateParams = {
     emailjs.send("CADavies","website enquiry", templateParams)
         .then(function(response) { 
             console.log('SUCCESS!', response.status, response.text);
+                contactForm.name.value = '';
+                contactForm.emailaddress.value = '';
+                contactForm.contactnumber.value = '';
+                contactForm.therapyoptions.value = '';
+                contactForm.therapychoice.value = '';
+                contactForm.therapydetails.value = '';
         }, function(error) {
             console.log('FAILED...', error);
         });
 }
+
 $(function(){
      $('form').on('submit', function () {                   
           $('#submitModal').modal('show');
