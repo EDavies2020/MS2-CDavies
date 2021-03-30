@@ -41,3 +41,21 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+// read more read less
+
+function myFunction() {
+  var dots = document.getElementsByClassName("dots");
+  var moreText = document.getElementsByClassName("more");
+  var readbtnText = document.getElementsByClassName("readbtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    readbtnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    readbtnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+

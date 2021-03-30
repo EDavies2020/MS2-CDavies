@@ -16,6 +16,9 @@ font-family: 'Roboto', sans-serif; */
     top: 0;
     left: 0; 
     background: url(../images/energy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
     overflow-y: hidden;
     transition: 0.5s;
 }
@@ -35,7 +38,7 @@ font-family: 'Roboto', sans-serif; */
     display: block;
     transition: 0.3s;
     background: rgba(211, 211, 211, 0.25);
-    margin: 20px;
+    margin: 20px 65px;
     padding: 10px;
 }
 .overlay a:hover, .overlay a:focus {
@@ -159,6 +162,8 @@ font-family: 'Roboto', sans-serif; */
     height: 250px;
     margin: 0px 10px;
     border-radius: 250px;
+}
+.more {display: none;
 }
 /* homepage-testimonials */
 .testimonial-section {
