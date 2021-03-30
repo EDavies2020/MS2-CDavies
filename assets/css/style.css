@@ -59,6 +59,27 @@ font-family: 'Roboto', sans-serif; */
     color: white;
     padding-left: 15px;
 }
+/* on scroll - back to top button */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 25px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(2, 88, 2, 0.548);
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
 /* Hero image homepage */
 .hero-image {
     width:100%;
@@ -152,7 +173,7 @@ font-family: 'Roboto', sans-serif; */
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding: 50px;
+    padding: 35px;
     background-image: url('../images/homepage/leaves.png');
     opacity: .8;
     border: solid 5px white;
@@ -231,7 +252,7 @@ font-family: 'Roboto', sans-serif; */
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 85%;
     margin-top: 25px;
     border: 1px solid;
     padding: 10px;
@@ -278,7 +299,7 @@ font-family: 'Roboto', sans-serif; */
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding: 50px;
+    padding: 35px;
     background-image: url('../images/therapies/meadow.jpg');
     opacity: .8;
     border: solid 5px white;
