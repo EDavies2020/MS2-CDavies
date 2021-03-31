@@ -43,19 +43,19 @@ function topFunction() {
 
 // read more read less
 
-function myFunction() {
-  var dots = document.getElementsByClassName("dots");
-  var moreText = document.getElementsByClassName("more");
-  var readbtnText = document.getElementsByClassName("readbtn");
+function readMore(info) {
+    let dots = document.querySelector(`.card[data-info="${info}"] .dots`);
+    let moreText = document.querySelector(`.card[data-info="${info}"] .more`); 
+    let btnText = document.querySelector(`.card[data-info="${info}"] .myBtn`);
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    readbtnText.innerHTML = "Read more"; 
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    readbtnText.innerHTML = "Read less"; 
-    moreText.style.display = "inline";
-  }
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.textContent = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.textContent = "Read less"; 
+        moreText.style.display = "inline";
+    }
 }
 

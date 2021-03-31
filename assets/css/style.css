@@ -132,7 +132,7 @@ font-family: 'Roboto', sans-serif; */
     margin-left: 20px;
     margin-right: 20px;
 }
-.card-text {
+.card {
     color: rgb(167, 162, 162);
     position: relative;
     background-color: #fafafa;
@@ -143,20 +143,20 @@ font-family: 'Roboto', sans-serif; */
     padding: 10px 45px;
     margin: -160px 45px 0px;
 }
-.card-text h5 {
+.card h5 {
     color: rgb(167, 162, 162);
     padding: 20px 0px;
 }
-.card-text h3 {
+.card h3 {
     color: rgb(190, 140, 136);
     padding: 50px 0px;
     border-bottom: 0.5px solid rgb(167, 162, 162);
 }
-.card-text p {
+.card p {
     color: rgb(167, 162, 162);
     padding: 10px 0px;
 }
-.card-text p img {
+.card p img {
     float: right;
     width: 250px;
     height: 250px;
