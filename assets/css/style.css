@@ -95,7 +95,7 @@
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #7068689a;
+    background-color: #2b2929b3;;
 }
 .hero-image-text h1 {
     font-family: 'Roboto', sans-serif;
@@ -117,8 +117,7 @@
     background-position: center;
     background-size:cover;
     height: 365px;
-    margin-left: 20px;
-    margin-right: 20px;
+    border: solid 2px grey;
 }
 .philosophy-image {
     background: url('../images/homepage/philosophy.jpg');
@@ -126,48 +125,47 @@
     background-position: center;
     background-size:cover;
     height: 365px;
-    margin-left: 20px;
-    margin-right: 20px;
+    border: solid 2px grey;
 }
-.card {
+.story-card {
     color: rgb(167, 162, 162);
     position: relative;
     background-color: #fafafa;
     text-align: center;
     font-family: 'Comfortaa', cursive;
-    border-style: groove;
+    border: 1.5px solid grey!important;
     margin-top: -160px;
     padding: 10px 45px;
     margin: -160px 45px 0px;
     overflow-wrap: normal!important;
 }
-.card h5 {
+.story-card h5 {
     color: rgb(167, 162, 162);
     padding: 20px 0px;
 }
-.card h3 {
+.story-card h3 {
     color: rgb(190, 140, 136);
     padding: 50px 0px;
     border-bottom: 0.5px solid rgb(167, 162, 162);
 }
-.card p {
+.story-card p {
     color: rgb(167, 162, 162);
     padding: 10px 0px;
 }
-.card p img {
+.story-card p img {
     float: right;
     width: 200px;
     height: 200px;
     margin: 15px 0px;
     border-radius: 250px;
 }
-.card button {
+.story-card button {
     background-color:#fafafa;
     border: solid 1.5px #888888;
     color:rgb(190, 140, 136);
     font-weight: bold;
 }
-.card h6 {
+.story-card h6 {
     color:rgb(190, 140, 136);
     font-weight: bold;
 }
