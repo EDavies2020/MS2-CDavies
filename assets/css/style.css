@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&family=Montserrat:wght@300;400&family=Roboto:ital,wght@0,300;1,300;1,400&display=swap');
 
-/* font-family: 'Comfortaa', cursive;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif; */
-
 .container-fluid {
     background-color: #f1f1f1;
 }
@@ -99,6 +95,7 @@ font-family: 'Roboto', sans-serif; */
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: #7068689a;
 }
 .hero-image-text h1 {
     font-family: 'Roboto', sans-serif;
@@ -177,7 +174,7 @@ font-family: 'Roboto', sans-serif; */
 .more {display: none;
 }
 /* homepage-therapies page link */
-.therapies-page-link button {
+.therapies-page-link h6 {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -186,9 +183,9 @@ font-family: 'Roboto', sans-serif; */
     transform: translate(-50%, -50%);
     border: solid 1.5px #888888;
     margin-top: 20px;
-    padding: 10px 50px;
+    padding: 10px 25px;
  }
-.therapies-page-link a {
+.therapies-page-link h6 a {
     color: rgb(190, 140, 136);
 }
 .therapies-page-link a:hover {
@@ -396,7 +393,7 @@ font-family: 'Roboto', sans-serif; */
     font-family: 'Comfortaa', cursive;
     padding-bottom: 30px;
 }
-.where-we-are h3 {
+.where-we-are h4 {
     margin-top: 40px;
     margin-bottom: 30px;
     color: rgb(190, 140, 136);
