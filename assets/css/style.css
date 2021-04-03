@@ -163,7 +163,35 @@ font-family: 'Roboto', sans-serif; */
     margin: 0px 10px;
     border-radius: 250px;
 }
+.card button {
+    background-color:#fafafa;
+    border: solid 1.5px #888888;
+    color:rgb(190, 140, 136);
+    font-weight: bold;
+}
+.card h6 {
+    color:rgb(190, 140, 136);
+    font-weight: bold;
+}
 .more {display: none;
+}
+/* homepage-therapies page link */
+.therapies-page-link button {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: solid 1.5px #888888;
+    margin-top: 20px;
+    padding: 10px 50px;
+}
+.therapies-page-link a {
+    color: rgb(190, 140, 136);
+}
+.therapies-page-link a:hover {
+    color: rgb(16, 105, 28);
 }
 /* homepage-testimonials */
 .testimonial-section {
@@ -171,7 +199,7 @@ font-family: 'Roboto', sans-serif; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 25px 0px;
+    margin: 40px 0px;
     padding: 40px 20px;
 }
 .homepage-testimonials {
@@ -233,7 +261,7 @@ font-family: 'Roboto', sans-serif; */
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 .therapies-image-text {
     text-align: center;
@@ -326,13 +354,13 @@ font-family: 'Roboto', sans-serif; */
 }
 /* contact page hero image*/
 .contact-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/homepage-main.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/homepage-main.jpg');
     width:100%;
     height:600px;
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 .contact-image-text {
     text-align: center;
@@ -444,9 +472,14 @@ font-family: 'Roboto', sans-serif; */
 .springboard {
     background-color: #fafafa;
 }
-.sb-mainheading img {
-    width: 100%;
-    height: 410px;
+.springboard-image {
+    background: url('../images/springboard/jumping.jpg');
+    width:100%;
+    height:600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: scroll;
 }
 .sb-mainheading h1 {
     text-align: center;
@@ -466,22 +499,18 @@ font-family: 'Roboto', sans-serif; */
     font-size: 20px;
     margin-top: 12px;
 }
-#springboard {
+.sb-main-text {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.springboard-text h5 {
+.sb-main-text h5 {
     color:#6B55AC;
     padding: 15px 30px
 }
-.springboard-text p {
+.sb-main-text p {
     padding: 12px 20px;
-}
-#about {
-    padding-top: 30px;
-    background-color: rgb(238, 240, 243);
 }
 .about-us-title {
     font-family: 'Montserrat', sans-serif;
@@ -489,8 +518,10 @@ font-family: 'Roboto', sans-serif; */
     color:#6B55AC;
     padding-bottom: 30px;
     border-bottom: solid 0.5px #6B55AC;
+    padding-top: 30px;
+    background-color: rgb(238, 240, 243);
 }
-.about-details img {
+.about-us-details img {
     width: 50%;
     height: auto;
     display: block;
@@ -499,7 +530,7 @@ font-family: 'Roboto', sans-serif; */
     border-radius: 10%;
     padding-top: 30px;
 }
-.about-details h5 {
+.about-us-details h5 {
     font-family: 'Montserrat', sans-serif;
     font-size: 35px;
     text-align: center;
@@ -508,7 +539,7 @@ font-family: 'Roboto', sans-serif; */
     letter-spacing: 3px;
     padding: 25px;
 }
-.about-details p {
+.about-us-details p {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding: 30px 50px;
