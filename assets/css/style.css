@@ -95,7 +95,6 @@
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #2b2929b3;;
 }
 .hero-image-text h1 {
     font-family: 'Roboto', sans-serif;
@@ -116,7 +115,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
-    height: 365px;
+    height: 450px;
     border: solid 2px grey;
 }
 .philosophy-image {
@@ -124,7 +123,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
-    height: 365px;
+    height: 450px;
     border: solid 2px grey;
 }
 .story-card {
@@ -294,15 +293,10 @@
     padding: 10px 0px;
     margin: 0px 53px;
 }
-.image-text p {
-    font-size: small;
-}
-.image-text:hover {
+.image-text h5:hover {
     text-align: center;
-    color: white;
-    background-color: rgba(30, 87, 30, 0.548);
-    padding: 10px;
-    margin: 0px 53px;
+    color: rgba(103, 196, 85, 0.829);
+    text-decoration: underline;
 }
 .therapy-name {
     font-family: 'Comfortaa', cursive;

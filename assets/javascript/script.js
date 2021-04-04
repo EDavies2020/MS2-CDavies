@@ -44,9 +44,9 @@ function topFunction() {
 // read more read less
 
 function readMore(info) {
-    let dots = document.querySelector(`.card[data-info="${info}"] .dots`);
-    let moreText = document.querySelector(`.card[data-info="${info}"] .more`); 
-    let btnText = document.querySelector(`.card[data-info="${info}"] .myBtn`);
+    let dots = document.querySelector(`.story-card[data-info="${info}"] .dots`);
+    let moreText = document.querySelector(`.story-card[data-info="${info}"] .more`); 
+    let btnText = document.querySelector(`.story-card[data-info="${info}"] .myBtn`);
 
     if (dots.style.display === "none") {
         dots.style.display = "inline";
