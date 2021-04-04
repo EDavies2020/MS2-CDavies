@@ -170,14 +170,83 @@
 }
 .more {display: none;
 }
+
+/* homepage-testimonials */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+  background-image: url('../images/homepage/leaves.png');
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+h6 {font-style: italic;}
+
+
+
+
+
+
 /* homepage-therapies page link */
 .therapies-page-link h6 {
-    margin: 0;
+    /* margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     border: solid 1.5px #888888;
     margin-top: 20px;
     padding: 10px 25px;
@@ -188,8 +257,12 @@
 .therapies-page-link a:hover {
     color: rgb(16, 105, 28);
 }
-/* homepage-testimonials */
-.testimonial-section {
+
+
+
+
+
+/* .testimonial-section {
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -223,7 +296,7 @@
     float: right;
     padding-right: 10px;
     padding-top: 5px;
-}
+} */
 /* footer */
 .my-footer {
     border-top: solid 2.5px rgb(190, 140, 136);
