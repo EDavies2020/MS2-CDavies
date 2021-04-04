@@ -1,20 +1,22 @@
 # Christine Anne Davies Website
 
 
-[View the live webiste here](https://edavies2020.github.io/MS2-CDavies/)
+[View live webiste here](https://edavies2020.github.io/MS2-CDavies/)
 
-This website has been created to promote Christine Anne Davies Holistic Therapies business and gives full details of the therapies/services she offers. 
+This website has been created to promote Christine Anne Davies Holistic Therapies business. 
 
-Christine and I discussed her requirements for the website. She provided a brief document of requirements which we discussed in more detail and I made notes: [view here](assets/images/readme/brief.pdf)
+Christine and I discussed her requirements for the website, she provided a brief document listing her requirements. 
+We discussed this in more detail and I brainstormed my thoights: [view brief/brainstorm](assets/images/readme/brief.pdf)
 
-Cristine also sent over a document all about her business with Michael Davies, 'Springboard' for which there is to be an introduction to on her site: [view here](assets/images/readme/springboard.docx)
+Cristine also sent over a document about her business with Michael Davies, 'Springboard'. 
+She would like to include an introduction to this venture on her site: [view Springboard document](assets/images/readme/springboard.docx)
 
 ## Website Purpose
 -------------------
 
 * For users to find her business and see what therapies she offers
 * Inform users of her background and philosophy behind her therapies
-* Give details of her therapies and services she offers including times and prices
+* Give details of therapies she offers including timings and prices
 * Show users where she is based
 * Inform users of her colaberation with Michael Davies and give a brief introduction to their business 'Springboard'
  
@@ -31,8 +33,11 @@ Cristine also sent over a document all about her business with Michael Davies, '
 
 ![Image](assets/images/readme/amiresponsive.PNG)
 
-* Please note: no image is showing for ipad but I have tested this further on my actual ipad and it was tested using: http://whatismyscreenresolution.net/multi-screen-test 
-  with no issues. results here: [view here](assets/images/readme/ipadtest.PNG)
+* Note: At the time of creating this readme there no image is showing for ipad on [Am I responsive](http://ami.responsivedesign.is/).
+    This appears to be an issue with their site [see screenshot of their homepage](assets/images/readme/amiresponsive2.PNG)
+    To be sure, I tested this further using: [what is my screen resultion](http://whatismyscreenresolution.net/multi-screen-test), 
+    with no issues. [see result](assets/images/readme/ipadtest.PNG)
+ 
 
 ## User Experience (UX)
 ----------------------
@@ -70,13 +75,13 @@ Cristine also sent over a document all about her business with Michael Davies, '
 
 ### Colours:
 
-* Christine wanted headings and text to be in black, greys and soft Technologies
-* Images were all to be complimentary tones with reference to everything feeling natural
+* Christine wanted headings and text to be in black, greys or soft tones
+* Images were all to be complimentary colours and tones with reference to everything feeling natural
 
 ### Images:
 
-* Images were all to be natural, complimentary tones with reference to light and energy
-* Images were sourced from [unspalsh](https://unsplash.com/), [pixabay](https://pixabay.com/) and provided by Christine
+* Images are all to be natural, complimentary tones with reference to light and energy but not the 'obvious choice'
+* Images to be sourced from [unspalsh](https://unsplash.com/), [pixabay](https://pixabay.com/) and provided by Christine
 
 ### Features:
 
@@ -178,9 +183,18 @@ The project was deployed using Github:
 6. The page will refresh taking you back to the top, scroll down to find your published page link
 
 
-Cloning: 
+Cloning using GitHub: 
 
-[click here](assets/images/readme/cloningrepo.pdf) for the process for cloning a repository from GitHub to GitHub Desktop
+1. On GitHub, navigate to the main page of the repository
+2. Above the list of files, click green 'Code' button
+3. To clone the repository using HTTPS, under "Clone with HTTPS", click on the clipboard icon 
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory
+6. Type git clone, and then paste the URL you copied earlier
+   Example: $ git clone https://github.com/username/repository
+7. Press Enter to create your local clone
+
+![Image](assets/images/readme/gitbash.PNG) 
 
 
 # Credits
@@ -188,13 +202,27 @@ Cloning:
 
 ## Code
 
-*
+* [w3schools](https://www.w3schools.com/)  
+    * curtain navbar was created using a tutorial from w3schools
+    * Scroll to top button on each page was created using tutorial from w3schools
+    * Read more/less was created using a comination of a tutorial from w3schools
+* [stackoverflow](https://stackoverflow.com/)
+    * stackoverflow used to resolve the issue with having multiple elements targeted by a single function
+    * Pop up modal on submit form created using advice on stackoverflow
+* Code Institute course matierial along with EmailJS tutorial was used to create enquiry form that submits to email
+* Code Institute course matierial along with Google Map Platform tutorials were used to create the map on contact page 
+  and marker to show the business loaction
+
+## Content
+
+* All text content was supplied by Christine Davies
 
 ## Media
 
-*
+* Images were sourced from [unspalsh](https://unsplash.com/), [pixabay](https://pixabay.com/) 
+  with the exception of the images of Christine and Michael which were supplied by Christine
 
 ## Acknowledgements
 
-*
-
+* Support and encouragment from some of my fellow peers in the slack community and my partner Allan
+* My mentor Spencer for his help, guidance and encoragement during our project conception session
