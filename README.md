@@ -3,23 +3,34 @@
 
 [View the live webiste here](https://edavies2020.github.io/MS2-CDavies/)
 
-This website has been created to promote Christine Anne Davies and gives full details of the therapies/services she offers. 
+This website has been created to promote Christine Anne Davies Holistic Therapies business and gives full details of the therapies/services she offers. 
 
-Christine and I discussed her requirements for the website and she provided a brief document of requirements: [view here](assets/images/readme/brainstorm1.png)
+Christine and I discussed her requirements for the website. She provided a brief document of requirements which we discussed in more detail and I made notes: [view here](assets/images/readme/brief.pdf)
+
+Cristine also sent over a document all about her business with Michael Davies, 'Springboard' for which there is to be an introduction to on her site: [view here](assets/images/readme/springboard.docx)
 
 ### Website Purpose
 
-* 
-* 
-* 
-* 
+* For users to find her business and see what therapies she offers
+* Inform users of her background and philosophy behind her therapies
+* Give details of her therapies and services she offers including times and prices
+* Show users where she is based
+* Inform users of her colaberation with Michael Davies and give a brief introduction to their business 'Springboard'
  
 ### Key Considerations
 
-* 
+* Professional, uncluttered and simple layout
+* A feeling of calm throughout with usage of natural images
+* A modern, clear font
+* Text to be in black, grey or soft Technologies
+* images not to be literal, but respresentative
+* Springboard page to fit with rest of site but have its own identity
+* Springboard page to use purple
 
-![Image](capture.png)
+![Image](assets/images/readme/amiresponsive.PNG)
 
+* Please note: no image is showing for ipad but I have tested this further on my actual ipad and it was tested using: http://whatismyscreenresolution.net/multi-screen-test 
+  with no issues. results here: [view here](assets/images/readme/ipadtest.PNG)
 
 ## User Experience (UX)
 ----------------------
