@@ -1,5 +1,3 @@
-// curtain navbar - W3Schools tutorial
-
 function openNav() {
   document.getElementById("myNav").style.height = "100%";
 }
