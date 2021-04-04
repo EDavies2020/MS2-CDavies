@@ -52,9 +52,47 @@
 
 
 ## Testing User Experience (UX)
+---------------------------------
 
 
 ### First time user goals:
+
+* Easily understand what the business offers and purpose of the website
+    * Homepage - The main hero image states that Christine is a holistic therapist
+    * Homepage - My Story explains Christines experience and how it has led her to what she now offers
+    * Therapies page - All therapies Christine offers are listed here with full details of the therapy
+    * Contact page - The enquiry form shows the purpose of the site is to make contact about the therapy your interested in
+
+* Easy to navigate
+    * The navigation bar is at the top of each page, accessed via the burger introduction
+    * There is a back to top button available when hyou begin to scroll down the page
+    * All links change colour when hovered over to show they can be clicked
+    * There are links throughout all pages directing the user around the site depending on their priorities
+
+* Testimonials to show what the users think of Christine and her therapies
+
+* Help users to get a feel for Christine as a person to decide if she is right person to treat them
+
+* Details of therapies, prices and appointment details
+
+* Provide contact details for Christine and location. Easy to make contact with Christine via the website and acknowledgement of the enquiry
+
+* Give and introduction to Christines joint venture, Springboard
+
+### Returning user goals:
+
+* Find/double check contact Information, check location
+* Find information on other treatments following initial appointment
+* Showing friends/recommendation
+* Springboard updates
+* Christine would like a client area added to upload initial reports - Future consideration 
+
+### Frequent user goals:
+
+* Check for addition of new therapies/testimonials
+* Springboard updates    
+* Christine would like a client area added to upload links to reseach she has compiled/ additional reading for subscribing clients - Future consideration
+* Christine would like to add a blog, perhaps linked from/to facebook with relevant posts to therapies
 
 *  
 
