@@ -134,8 +134,8 @@
     font-family: 'Comfortaa', cursive;
     border: 1.5px solid grey!important;
     margin-top: -160px;
-    padding: 10px 45px;
-    margin: -160px 45px 0px;
+    padding: 10px 30px;
+    margin: -160px 20px 0px;
     overflow-wrap: normal!important;
 }
 .story-card h5 {
@@ -176,7 +176,7 @@
 }
 .myHpSlides {
     display: none;
-    padding: 75px;
+    padding: 45px;
     text-align: center;
 }
 .myHpSlides h5 {
@@ -334,7 +334,7 @@
 }
 .myTpSlides {
     display: none;
-    padding: 75px;
+    padding: 45px;
     text-align: center;
 }
 .myTpSlides h5 {
@@ -473,7 +473,7 @@
     font-weight: bold;
 }
 .where-we-are p {
-    margin: 25px 60px;
+    margin: 25px 30px;
     line-height: 35px;
 }
 #map {
@@ -493,7 +493,7 @@
     font-weight: bold;
 }
 .appointments p {
-    margin: 25px 60px;
+    margin: 25px 30px;
 }
 /* contact page where are we */
 .enquiry-form {
