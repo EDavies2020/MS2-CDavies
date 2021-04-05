@@ -171,21 +171,21 @@
 .more {display: none;
 }
 /* homepage-testimonials */
-.slideshow-container {
+.hp-slideshow-container {
     background-image: url('../images/homepage/leaves.png');
 }
-.mySlides {
+.myHpSlides {
     display: none;
-    padding: 100px;
+    padding: 75px;
     text-align: center;
 }
-.mySlides h5 {
+.myHpSlides h5 {
     font-style: italic;
     background-color: #fafafa;
     padding: 20px;
     margin-bottom: 0px;
 }
-.mySlides h4 {
+.myHpSlides h4 {
     background-color: #fafafa;
     padding: 20px;
     color: rgba(2, 88, 2, 0.548);
@@ -214,12 +214,13 @@
   background-color: white;
   color: rgba(0,0,0,0.8);
 }
-.dot-container {
+.hpDot-container {
     text-align: center;
     padding: 20px;
     background: #ddd;
+    margin-bottom: 50px;
 }
-.dot {
+.hpDot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -229,7 +230,7 @@
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-.active, .dot:hover {
+.active, .hpDot:hover {
   background-color: #717171;
 }
 .my-footer {
@@ -326,8 +327,81 @@
     color: grey;
     background:  rgba(224, 226, 224, 0.829);
 }
+/* therapy-page-testimonials */
+.tp-slideshow-container {
+    background-image: url('../images/therapies/meadow.jpg');
+    margin-top: 50px;
+}
+.myTpSlides {
+    display: none;
+    padding: 75px;
+    text-align: center;
+}
+.myTpSlides h5 {
+    font-style: italic;
+    background-color: #fafafa;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+.myTpSlides h4 {
+    background-color: #fafafa;
+    padding: 20px;
+    color: rgba(2, 88, 2, 0.548);
+    border-top: solid 0.5px rgba(2, 88, 2, 0.548);
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  position: absolute;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: white;
+  color: rgba(0,0,0,0.8);
+}
+.tpDot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+    margin-bottom: 50px;
+}
+.tpDot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .tpDot:hover {
+  background-color: #717171;
+}
+
+
+
+
+
+
+
+
+
+
 /* therapies page testimonials */
-.testimonial-section {
+/* .testimonial-section {
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -358,7 +432,7 @@
     float: right;
     padding-right: 10px;
     padding-top: 5px;
-}
+} */
 /* contact page hero image*/
 .contact-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/homepage-main.jpg');
