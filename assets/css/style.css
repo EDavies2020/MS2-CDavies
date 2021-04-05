@@ -594,7 +594,7 @@
 }
 .sb-main-text h3 {
     color:rgb(80, 64, 131);
-    padding: 30px;
+    padding: 15px;
 }
 #div1 {
     font-size: small;   
@@ -616,14 +616,42 @@
     background-color: rgba(187, 182, 204, 0.74);
 }
 .about-us-details img {
-    width: 50%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10%;
-    margin-top: 30px;
-    box-shadow: 15px 15px 20px grey;
+    width: 300px;
+    height: 300px;
+}
+.flip-card {
+    background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
 }
 .about-us-details h5 {
     font-family: 'Montserrat', sans-serif;
@@ -634,11 +662,14 @@
     letter-spacing: 3px;
     padding: 25px;
 }
-.about-us-details p {
+
+/* .about-us-details p {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding: 30px 50px;
-}
+}  */
+
+
 .weekend-workshops-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
