@@ -596,6 +596,12 @@
     color:rgb(80, 64, 131);
     padding: 30px;
 }
+#div1 {
+    font-size: small;   
+}
+#div2 {
+    display:none;
+}
 .sb-main-text p {
     padding: 12px 20px;
 }
