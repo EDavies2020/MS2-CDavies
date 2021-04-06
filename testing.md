@@ -14,12 +14,12 @@
     * style.css: [view report](assets/images/testing/cssvalidatorresults.pdf) 
 
 *JS Hint - Used to validate JavaScript
-    * hmpg.js: [view report](assets/images/training/hmpgjs.PNG) 
-    * maps.js: [view report](assets/images/training/mapsjs.PNG) 
-    * script.js: [view report](assets/images/training/scriptjs.PNG)
-    * sendmail.js: [view report](assets/images/training/sendmailjs.PNG) 
-    * springboard.js: [view report](assets/images/training/springboardjs.PNG) 
-    * therapy.js: [view report](assets/images/training/therapyjs.PNG) 
+    * hmpg.js: [view report](assets/images/testing/hmpgjs.PNG) 
+    * maps.js: [view report](assets/images/testing/mapsjs.PNG) 
+    * script.js: [view report](assets/images/testing/scriptjs.PNG)
+    * sendmail.js: [view report](assets/images/testing/sendmailjs.PNG) 
+    * springboard.js: [view report](assets/images/testing/springboardjs.PNG) 
+    * therapy.js: [view report](assets/images/testing/therapyjs.PNG) 
 
 
 ## Errors
@@ -139,10 +139,25 @@
 
 * Homepage
     * Read more/read less buttons are working correctly
-    * Link to therapies page works correctly and doesnt break the site by clicking the back button
+    * Link to therapies page works correctly and doesnt break the site when using back button
     * Testimonial carousel is working correctly. Again, I used a plain colour behind the text to make it clearer to the user
+
+* Therapies page 
+    * Details buttons all open the correct modals
+    * Make an enquiry link works and doent break the site when using back button
+    * Back to therapies buttons work 
+    * Testimonial carousel is working correctly. Again, I used a plain colour behind the text to make it clearer to the user
+
+* Springboard page
+    * click here to find out more... link works correctly and text fades in below
+    * Flip cards in about us section is working correctly - On mobile they only flip back once the next is flipped 
+    * The email and telephone number links are all working correctly
+
+* Other
+    * Back to top button is working as it should on all pages and screen types
     * Each page has been tested on all screen sizes using online responsive media sites. I have also manually tested on my iphone phone, 
         ipad and Christine tested using her android
 
-* Therapies page 
-    * 
+## Client feedback 
+
+    * Christine provided her feedback on the site created for her business: [read](assets/images/testing/websitereview.pdf)
