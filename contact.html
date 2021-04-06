@@ -16,6 +16,8 @@
             emailjs.init("user_QDLr0fiKT6h4bxKO73Jrd");
         })();
     </script>   
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
 </head>
 <body>
 <div class="container-fluid">
@@ -65,7 +67,11 @@
         <div class="col-12 location-map">
             <div id="map"></div>
         </div>
-    </div>        
+    </div>  
+    <div class="marker-details">
+        <p>A - Christine Davies, Felidre Court, Dryslwyn, Carmarthen, SA32 8RJ</p>
+        <p>B - Springboard, Ty'r Efail, Dryslwyn, Carmarthen, SA32 8RJ</p>
+    </div>      
 <!--contact page prices-->
 <section>
     <div class="row no-gutters">
@@ -154,7 +160,7 @@
     </div>
 </footer>
 </div>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWWfjBJLnRDB8o_KTKjuFeMmPul6WNE8Y&callback=initMap&libraries=&v=weekly" async></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWWfjBJLnRDB8o_KTKjuFeMmPul6WNE8Y&callback=initMap&libraries=&v=weekly" async defer></script>
 <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
         crossorigin="anonymous"></script>

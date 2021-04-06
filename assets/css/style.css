@@ -498,6 +498,12 @@
     padding: 10px;
     height: 400px;
 }
+.marker-details {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: grey;
+    padding-top: 20px;
+}
 
 /* contact page apointments */
 
