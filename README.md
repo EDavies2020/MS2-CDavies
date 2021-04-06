@@ -168,16 +168,18 @@ She would like to include an introduction to this venture on her site: [view Spr
 ## Testing
 ----------
 
+
 Testing can be found here: [testing.md](testing.md)
 
 
-# Deployment
+## Deployment
+-----------------
 
 
 ## Github 
 
 
-The project was deployed using Github:
+* The project was deployed using Github:
 
 1. Log into GitHub account
 2. Select Repository to be deployed 
@@ -187,7 +189,7 @@ The project was deployed using Github:
 6. The page will refresh taking you back to the top, scroll down to find your published page link
 
 
-Cloning using GitHub: 
+* Cloning using GitHub: 
 
 1. On GitHub, navigate to the main page of the repository
 2. Above the list of files, click green 'Code' button
@@ -199,6 +201,43 @@ Cloning using GitHub:
 7. Press Enter to create your local clone
 
 ![Image](assets/images/readme/gitbash.PNG) 
+
+
+## APIs
+--------------------------
+
+
+## Google maps
+
+* Google API key code
+
+1. Sign into account
+2. Go to the APIs & Services > Credentials page.
+3. Go to the Credentials page
+4. On the Credentials page, click Create credentials > API key.
+    The API key created dialog displays your newly created API key.Click Close.
+5. The new API key is listed on the Credentials page under API keys.(Remember to restrict the API key before using it in production.)
+
+Add API key code to google script:
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY-HERE&callback=initMap&libraries=&v=weekly" async defer></script>
+
+## EmailJS
+
+* EmailJS User ID
+
+1. Sign into account
+2. Go to Integration
+3. copy User ID
+
+Add User ID to EmailJS script:
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_ID_Here");
+})();
+</script>
 
 
 # Credits
