@@ -421,22 +421,21 @@
 
 /* therapy page springboard link*/
 
-.springboard-link {
+    .springboard-link {
     font-family: 'Comfortaa', cursive;
     color: rgba(9, 66, 9, 0.842);
-    border-top: solid 0.5px rgba(9, 66, 9, 0.842);
-    box-shadow: 5px 0px 15px rgba(99, 97, 97, 0.945);
-    background-color:rgba(197, 201, 197, 0.596);
+    border: solid 0.5px rgba(9, 66, 9, 0.842);
+    box-shadow: 5px 0px 15px rgb(99 97 97 / 95%);
+    background-color: rgba(197, 201, 197, 0.596);
     text-align: center;
-    margin-top: 30px;
-    padding-top: 45px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    margin-bottom: 30px;
 }
-.springboard-link h3 {
-    padding: 20px;
+.springboard-link h5 {
+    padding: 10px;
 }
 .springboard-link p {
-    padding: 20px;
+    padding: 10px;
 }
 .springboard-link p a {
     color: rgb(65, 61, 61);
