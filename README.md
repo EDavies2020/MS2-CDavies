@@ -1,7 +1,7 @@
 # Christine Anne Davies Website
 
 
-[View live webiste here](https://edavies2020.github.io/MS2-CDavies/)
+[View live website here](https://edavies2020.github.io/MS2-CDavies/)
 
 This website has been created to promote Christine Anne Davies Holistic Therapies business. 
 
@@ -97,10 +97,12 @@ She would like to include an introduction to this venture on her site: [view Spr
     * Christines story: read more/read less buttons are used as this section is very text heavy, allows the user to read more if they wish to know more.
     * Christines philosophy: read more/read less buttons are used as this section is very text heavy, allows the user to read more if they wish to know more. 
     * Link to Therapies page
+    * Carousel testimonials
 
 * Therapies Page:
     * Each therapies has a modal that opens on clicking details... 
-    * Modal contains a link to contact page and button to return to therapies page
+    * All modals contains a link to contact page and button to return to therapies page
+    * Intro link to Springboard
 
 * Contact Page:
     * Google map withy marker for business location
@@ -109,6 +111,8 @@ She would like to include an introduction to this venture on her site: [view Spr
 
 * Other:
     * Return to top button is featured on each page as you scroll down the page allowing the user to return quickly to the Navbar link
+    * Click here to find out more link in header with text fading into focus
+    * Flip cards in about us section to reaveal information on Christine & Micheal
     
 
 ## Wireframes
@@ -138,7 +142,7 @@ She would like to include an introduction to this venture on her site: [view Spr
 * Used for images throughout the site
 
 6. [google fonts](https://fonts.google.com/)
-* Link used to in CSS to import font styles 
+* Link used in CSS to import font styles 
 
 7. [w3schools](https://www.w3schools.com/) and [stackoverflow](https://stackoverflow.com/)
 * I used the above websites for tutorials when creating javascript and to resolve issues I came up against
