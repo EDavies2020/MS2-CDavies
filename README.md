@@ -6,7 +6,7 @@
 This website has been created to promote Christine Anne Davies Holistic Therapies business. 
 
 Christine and I discussed her requirements for the website, she provided a brief document listing her requirements. 
-We discussed this in more detail and I brainstormed my thoights: [view brief/brainstorm](assets/images/readme/brief.pdf)
+We discussed this in more detail and I brainstormed my thoughts: [view brief/brainstorm](assets/images/readme/brief.pdf)
 
 Cristine also sent over a document about her business with Michael Davies, 'Springboard'. 
 She would like to include an introduction to this venture on her site: [view Springboard document](assets/images/readme/springboard.docx)
@@ -18,7 +18,7 @@ She would like to include an introduction to this venture on her site: [view Spr
 * Inform users of her background and philosophy behind her therapies
 * Give details of therapies she offers including timings and prices
 * Show users where she is based
-* Inform users of her colaberation with Michael Davies and give a brief introduction to their business 'Springboard'
+* Inform users of her collaboration with Michael Davies and give a brief introduction to their business 'Springboard'
  
 ## Key Considerations
 ----------------------
@@ -27,7 +27,7 @@ She would like to include an introduction to this venture on her site: [view Spr
 * A feeling of calm throughout with usage of natural images
 * A modern, clear font
 * Text to be in black, grey or soft Technologies
-* images not to be literal, but respresentative
+* images not to be literal, but representative
 * Springboard page to fit with rest of site but have its own identity
 * Springboard page to use purple
 
@@ -51,7 +51,7 @@ She would like to include an introduction to this venture on her site: [view Spr
 * Help users to get a feel for Christine as a person to decide if she is right person to treat them
 * Details of therapies, prices and appointment details
 * Provide contact details for Christine and location. Easy to make contact with Christine via the website and acknowledgement of the enquiry
-* Give and introduction to Christines joint venture, Springboard
+* Give and introduction to Christine’s joint venture, Springboard
 
 ### Returning user goals:
 
@@ -65,7 +65,7 @@ She would like to include an introduction to this venture on her site: [view Spr
 
 * Check for addition of new therapies/testimonials
 * Springboard updates    
-* Christine would like a client area added to upload links to reseach she has compiled/ additional reading for subscribing clients - Future consideration
+* Christine would like a client area added to upload links to research she has compiled/ additional reading for subscribing clients - Future consideration
 * Christine would like to add a blog, perhaps linked from/to facebook with relevant posts to therapies 
 
 
@@ -87,15 +87,15 @@ She would like to include an introduction to this venture on her site: [view Spr
 
 * Header, Footer and Navbar:
     * The curtain navigation Bar - drops down from the top with pages set on top of a close up of a leaf
-    * The header - Hero images used on each page to offer consistancy across site. 
-        Homepage is original image with Christines name and job title
+    * The header - Hero images used on each page to offer consistency across site. 
+        Homepage is original image with Christine’s name and job title
         Therapies and contact pages the images are darkened with quotes from Christine added.
-        Springboard page - although a different business Ive used the hero image and picture that compliments Christines other pages
+        Springboard page - although a different business Ive used the hero image and picture that compliments Christine’s other pages
     * The footer - Social media, mobile and email link
 
 * Homepage:
-    * Christines story: read more/read less buttons are used as this section is very text heavy, allows the user to read more if they wish to know more.
-    * Christines philosophy: read more/read less buttons are used as this section is very text heavy, allows the user to read more if they wish to know more. 
+    * Christine’s story: read more/read less buttons are used as this section is very text heavy, allows the user to read more if they wish to know more.
+    * Christine’s philosophy: read more/read less buttons are used as this section is very text heavy, allows the user to read more if they wish to know more. 
     * Link to Therapies page
     * Carousel testimonials
 
@@ -112,7 +112,7 @@ She would like to include an introduction to this venture on her site: [view Spr
 * Other:
     * Return to top button is featured on each page as you scroll down the page allowing the user to return quickly to the Navbar link
     * Click here to find out more link in header with text fading into focus
-    * Flip cards in about us section to reaveal information on Christine & Micheal
+    * Flip cards in about us section to reveal information on Christine & Michael
     
 
 ## Wireframes
@@ -147,8 +147,8 @@ She would like to include an introduction to this venture on her site: [view Spr
 7. [w3schools](https://www.w3schools.com/) and [stackoverflow](https://stackoverflow.com/)
 * I used the above websites for tutorials when creating javascript and to resolve issues I came up against
     * curtain navbar was created using a tutorial from w3schools
-    * Scroll to top button on each page was created using tutorial from w3schools
-    * Read more/less was created using a comination of a tutorial from w3schools with stackoverflow used to resolve the issue with
+    * Scroll to top button on each page was created using tutorial from w3school
+    * Read more/less was created using a combination of a tutorial from w3schools with stack         overflow used to resolve the issue with
       having multiple elements targeted by a single function
     * Pop up modal on submit form created using advice on stackoverflow
     
@@ -248,13 +248,13 @@ emailjs.init("user_ID_Here");
 * [w3schools](https://www.w3schools.com/)  
     * curtain navbar was created using a tutorial from w3schools
     * Scroll to top button on each page was created using tutorial from w3schools
-    * Read more/less was created using a comination of a tutorial from w3schools
+    * Read more/less was created using a combination of a tutorial from w3schools
 * [stackoverflow](https://stackoverflow.com/)
     * stackoverflow used to resolve the issue with having multiple elements targeted by a single function
     * Pop up modal on submit form created using advice on stackoverflow
-* Code Institute course matierial along with EmailJS tutorial was used to create enquiry form that submits to email
-* Code Institute course matierial along with Google Map Platform tutorials were used to create the map on contact page 
-  and marker to show the business loaction
+* Code Institute course material along with EmailJS tutorial was used to create enquiry form that submits to email
+* Code Institute course material along with Google Map Platform tutorials were used to create the map on contact page 
+  and marker to show the business location
 
 ## Content
 
@@ -267,5 +267,5 @@ emailjs.init("user_ID_Here");
 
 ## Acknowledgements
 
-* Support and encouragment from some of my fellow peers in the slack community and my partner Allan
-* My mentor Spencer for his help, guidance and encoragement during our project conception session
+* Support and encouragement from some of my fellow peers in the slack community and my partner Allan
+* My mentor Spencer for his help, guidance and encouragement during our project conception session

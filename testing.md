@@ -10,7 +10,7 @@
     * Contact page html: [view report](assets/images/testing/contact.htmlchecker.pdf)
     * Springboard page html: [view report](assets/images/testing/springboard.htmlchecker.pdf)
 
-* W3C CSS Validation Service - Used to validatate CSS
+* W3C CSS Validation Service - Used to validate CSS
     * style.css: [view report](assets/images/testing/cssvalidatorresults.pdf) 
 
 *JS Hint - Used to validate JavaScript
@@ -49,7 +49,7 @@
 * JavaScript - Missing semicolon
     * Fix: Added missing semicolons
 * JavaScript - Do not use 'new' for side effects.
-    * Fix: As this was taken from [google maps documentation](https://developers.google.com/maps/documentation/javascript/marker-clustering) I ave left this as it is
+    * Fix: As this was taken from [google maps documentation](https://developers.google.com/maps/documentation/javascript/marker-clustering) I have left this as it is
 
 
 ## Testing EmailJS API
@@ -69,7 +69,7 @@
 
 * Easily understand what the business offers and purpose of the website
     * Homepage - The main hero image states that Christine is a holistic therapist
-    * Homepage - My Story explains Christines experience and how it has led her to what she now offers
+    * Homepage - My Story explains Christine’s experience and how it has led her to what she now offers
     * Therapies page - All therapies Christine offers are listed here with full details of the therapy
     * Contact page - The enquiry form shows the purpose of the site is to make contact about the therapy your interested in
 
@@ -80,22 +80,22 @@
     * There are links throughout all pages directing the user around the site depending on their priorities
 
 * Testimonials to show what the users think of Christine and her therapies
-    * There are 2 testimonial carouseld, 1 on the homepage and 1 on the therapies page
+    * There are 2 testimonial carousel, 1 on the homepage and 1 on the therapies page
 
 * Help users to get a feel for Christine as a person to decide if she is right person to treat them
-    * The colours and images have been chosen to reflect Christines personality and ethos.
+    * The colours and images have been chosen to reflect Christine’s personality and ethos.
 
 * Details of therapies, prices and appointment details
     * There is a therapies page listing details of all therapies available with links to make contact
     * Prices and timings are available on the contact page
 
 * Provide contact details for Christine and location. Easy to make contact with Christine via the website and acknowledgement of the enquiry
-    * Christines contact details are in each footer and also on the contact page
+    * Christine’s contact details are in each footer and also on the contact page
     * There is a enquiry form on the contact page which submits an email to Christine
-    * The user opens a modal on submission thanking them for the enquiry, they also recieve an auto response via email
+    * The user opens a modal on submission thanking them for the enquiry, they also receive an auto response via email
 
-* Give and introduction to Christines joint venture, Springboard
-    * Details about Christines joint venture are on the Springboard page
+* Give and introduction to Christine’s joint venture, Springboard
+    * Details about Christine’s joint venture are on the Springboard page
     * There is a link to the springboard page on the therapies page
 
 ### Returning user goals:
@@ -108,7 +108,7 @@
 
 * Showing friends/recommendation
     * The website can be easily shared with others
-    * They can also be directed to Christines social media
+    * They can also be directed to Christine’s social media
 
 * Springboard updates
     * Updates can be posted when the Springboard website is live and weekends are confirmed
@@ -124,27 +124,27 @@
 * Springboard updates 
     * Updates can be posted when the Springboard website is live and weekends are confirmed
 
-* Christine would like a client area added to upload links to reseach she has compiled/ additional reading for subscribing clients - Future consideration
+* Christine would like a client area added to upload links to research she has compiled/ additional reading for subscribing clients - Future consideration
 * Christine would like to add a blog, perhaps linked from/to facebook with relevant posts to therapies
     * Both of the above points are future website development points
 
  ## Manual Testing
 
 * Navbar
-    * I chose a picture for the background of the curtain navbar, the links werent that easy to see so I added a colour background  
-        with low opactity to make these more visible to the user
+    * I chose a picture for the background of the curtain navbar, the links weren’t that easy to see so I added a colour background  
+        with low opacity to make these more visible to the user
 
 * Footer
     * The email, telephone number and facebook links are all working correctly
 
 * Homepage
     * Read more/read less buttons are working correctly
-    * Link to therapies page works correctly and doesnt break the site when using back button
+    * Link to therapies page works correctly and doesn’t break the site when using back button
     * Testimonial carousel is working correctly. Again, I used a plain colour behind the text to make it clearer to the user
 
 * Therapies page 
     * Details buttons all open the correct modals
-    * Make an enquiry link works and doent break the site when using back button
+    * Make an enquiry link works and doesn’t break the site when using back button
     * Back to therapies buttons work 
     * Testimonial carousel is working correctly. Again, I used a plain colour behind the text to make it clearer to the user
 
