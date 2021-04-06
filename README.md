@@ -156,7 +156,7 @@ She would like to include an introduction to this venture on her site: [view Spr
 * Font Awesome icons were used in the footer for mobile, email and facebook
 
 9. [Google maps platform](https://developers.google.com/maps/documentation/javascript/overview)
-* Google maps API is used on contact page and markers tutorial
+* Google maps API is used on contact page and cluster markers tutorial
 
 10. [EmailJS](https://www.emailjs.com/)
 * Used with html form to submit enquiry that is emailed to website owner as well as confirming to the user that the email has been sent
